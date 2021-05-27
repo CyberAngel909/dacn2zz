@@ -1,0 +1,58 @@
+Gimel Studio Nodes & Colors
+===========================
+
+INPUT #975B5B (Burgendy)
+[x]- Image
+[x]- Color Image
+[x]- Gradient Image
+[x]- Texture/noise (Needs more work: perlin noise, wave, musgrave, brick?, etc)
+
+DRAW #AF4467 (Pink)
+[] - Text (WIP)
+[] - Shape
+
+MASK "#084D4D" (Blue-green)
+[x] - Dilate/Erode
+[x] - Edge Detect
+[] - Shape Mask
+[] - Paint Mask
+
+CONVERT #564B7C (Purple)
+[x]- To Normal Map
+[x]- To AO Map
+[x]- To Specular Map
+[x]- To Bump Map
+[x]- To Roughness Map
+
+FILTER #558333 (Green)
+[x]- Blur
+[x]- Sharpness
+[] - Denoise (WIP)
+[x] - Invert
+
+BLEND #498DB8 (Light Blue)
+[x] - Alpha Composite
+[x] - Composite
+[x] - Mix
+
+COLOR #C2AF3A (Yellow)
+[x] - Brightness
+[x] - Contrast
+[x] - Color Balance
+[x] - Invert Alpha
+[x] - Get Channel
+[] - Gamma
+[] - RGB Curves
+[] - Color Ramp
+
+DISTORT: #6B8B8B (Blue-Grey)
+[x] - Resize
+[] - Scale
+[x] - Crop
+[x]- Rotate
+[] - Transform/Perspective Transform
+[] - Translate
+[x] - Flip
+
+OUTPUT: #B33641 (Red)
+[x] - Output
